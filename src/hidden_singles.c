@@ -2,13 +2,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-int hidden_singles(SudokuBoard *p_board)
-=======
-
 typedef struct 
->>>>>>> bbdb659 (change the hidden singles)
 {
     int row;
     int col;
@@ -79,10 +73,6 @@ void find_a_hidden_single_cell(Cell** p_cells, HiddenSingles* p_hidden_singles, 
         }
     }
 }
-<<<<<<< HEAD
-=======
->>>>>>> 8b19c97 (added description)
-=======
 
 int hidden_singles(SudokuBoard* p_board) 
 {
@@ -134,4 +124,3 @@ int hidden_singles(SudokuBoard* p_board)
 
     return total;
 }
->>>>>>> bbdb659 (change the hidden singles)
